@@ -1,0 +1,16 @@
+<!ELEMENT student (id,firstName,lastName,age,gender,address,contact,enrollment)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT firstName (#PCDATA)>
+<!ELEMENT lastName (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT gender (#PCDATA)>
+<!ELEMENT address (street,city,zipCode)>
+<!ELEMENT street (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT zipCode (#PCDATA)>
+<!ELEMENT contact (email,phone)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT enrollment (year,major)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT major (#PCDATA)>

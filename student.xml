@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE student SYSTEM "student.dtd">
+<student>
+	<id>12345</id>
+	<firstName>mohammad</firstName>
+	<lastName>mohammadi</lastName>
+	<age>17</age>
+	<gender>male</gender>
+	<address>
+		<street>mirdamad street</street>
+		<city>tehran</city>
+		<zipCode>123456789</zipCode>
+	</address>
+	<contact>
+		<email>mo.mohammadi@gmail.com</email>
+		<phone>09123456789</phone>
+	</contact>
+	<enrollment>
+		<year>2024</year>
+		<major>computer</major>
+	</enrollment>
+</student>

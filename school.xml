@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE school SYSTEM "school.dtd">
+<school>
+    <classes>
+        <class>
+            <classID>101</classID>
+            <className>Deep Learning</className>
+            <teacher>
+                <teacherID>1</teacherID>
+                <teacherName>Hossein Shahsavar</teacherName>
+            </teacher>
+            <schedule>
+                <day>Saturday</day>
+                <time>08:00-11:00</time>
+            </schedule>
+            <students>
+                <student>
+                    <studentID>12345</studentID>
+                    <studentName>Sara Fahimi</studentName>
+                </student>
+                <student>
+                    <studentID>12346</studentID>
+                    <studentName>Amin Delavar</studentName>
+                </student>
+            </students>
+        </class>
+        <class>
+            <classID>102</classID>
+            <className>NLP</className>
+            <teacher>
+                <teacherID>2</teacherID>
+                <teacherName>Zahra Azimzade</teacherName>
+            </teacher>
+            <schedule>
+                <day>Sunday</day>
+                <time>14:00-17:00</time>
+            </schedule>
+            <students>
+                <student>
+                    <studentID>12345</studentID>
+                    <studentName>Sara Fahimi</studentName>
+                </student>
+                <student>
+                    <studentID>12347</studentID>
+                    <studentName>Hanie Bayati</studentName>
+                </student>
+            </students>
+        </class>
+        <class>
+            <classID>103</classID>
+            <className>Image Proccesing</className>
+            <teacher>
+                <teacherID>3</teacherID>
+                <teacherName>Alireza Rezvanian</teacherName>
+            </teacher>
+            <schedule>
+                <day>Monday</day>
+                <time>8:00-11:00</time>
+            </schedule>
+            <students>
+                <student>
+                    <studentID>12348</studentID>
+                    <studentName>Mohammad Yaghmaei</studentName>
+                </student>
+            </students>
+        </class>
+    </classes>
+</school>

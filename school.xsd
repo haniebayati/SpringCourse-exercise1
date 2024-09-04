@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="school">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="classes">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="class" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="classID" type="xs:string" />
+										<xs:element name="className" type="xs:string" />
+										<xs:element name="teacher">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="teacherID" type="xs:string" />
+													<xs:element name="teacherName" type="xs:string" />
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="schedule">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="day" type="xs:string" />
+													<xs:element name="time" type="xs:string" />
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="students">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="student" maxOccurs="unbounded">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="studentID"
+																	type="xs:string" />
+																<xs:element name="studentName"
+																	type="xs:string" />
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

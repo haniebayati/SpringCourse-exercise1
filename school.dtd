@@ -1,0 +1,15 @@
+<!ELEMENT school (classes)>
+<!ELEMENT classes (class+)>
+<!ELEMENT class (classID,className,teacher,schedule,students)>
+<!ELEMENT classID (#PCDATA)>
+<!ELEMENT className (#PCDATA)>
+<!ELEMENT teacher (teacherID,teacherName)>
+<!ELEMENT teacherID (#PCDATA)>
+<!ELEMENT teacherName (#PCDATA)>
+<!ELEMENT schedule (day,time)>
+<!ELEMENT day (#PCDATA)>
+<!ELEMENT time (#PCDATA)>
+<!ELEMENT students (student+)>
+<!ELEMENT student (studentID,studentName)>
+<!ELEMENT studentID (#PCDATA)>
+<!ELEMENT studentName (#PCDATA)>
