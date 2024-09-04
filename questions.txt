@@ -1,0 +1,88 @@
+
+هانیه بیاتی
+
+record type 
+
+یک ویژگی جدید است که از نسخه 14 جاوا به عنوان یک ویژگی پیش نویس و از نسخه 16 به صورت رسمی record type ، در جاوا
+معرفی شد. رکوردها به طور خاص برای تعریف کلاس هایی طراحی شده اند که فقط داده ها را ذخیره می کنند. این نوع کلاس ها اجازه
+equals(), ایجاد کنیم که به طور خودکار متدهایی مانند immutable می دهند تا با حداقل کد، کلاس هایی با فیلدهای
+را تولید می کنند. toString() وhashCode()
+در کل، رکوردها یک راه ساده و مؤثر برای کار با داده ها در جاوا هستند و به نگهداری و مدیریت بهتر داده ها کمک می کنند.
+
+مثال ساده:
+record Person(String name, int age) {
+}
+یک رکورد است که دو فیلد نام و سن را تعریف می کند. با استفاده از این رکورد می توان به سادگی اشیاء ایجاد Person در اینجا، کلاس
+کرد.
+Person person = new Person("Ali", 30);
+System.out.println(person.name()); // "Ali"
+System.out.println(person.age()); // 30
+
+*****************************************************************************
+های معروف جاوا ide لیست 
+
+IntelliJ IDEA
+Eclipse
+NetBeans
+Spring Tool Suite (STS)
+JDeveloper
+BlueJ
+JCreator
+و ...
+
+*****************************************************************************
+request web ها در یک valid content type لیست 
+
+Text Types
+text/plain: متن ساده بدون فرمت
+text/html: محتوای HTML
+text/css: محتوای CSS
+text/xml: محتوای XML
+
+Json Types
+application/json: داده های JSON
+
+Form Types
+application/x-www-form-urlencoded: داده های فرم HTML با فرمت URL-encoded ( به طور پیش فرض در فرم های
+POST (استفاده می شود
+multipart/form-data: برای ارسال داده هایی که شامل فایل ها یا داده های چندگانه هستند )به طور معمول در فرم های بارگذاری
+فایل استفاده می شود(
+
+Binary and File Types
+application/octet-stream: نوع باینری عمومی که برای فایل های غیرمعمول و حجم های بزرگ استفاده می شود
+application/pdf: PDF
+application/zip: ZIP
+application/octet-stream: برای فایل های باینری که نوع آن ها مشخص نیست
+
+Image Types
+image/jpeg: JPEG
+image/png: PNG
+image/gif: GIF
+image/svg+xml: SVG
+image/webp: WebP
+
+Audio Types
+audio/mpeg: MP3
+audio/wav: WAV
+audio/ogg: OGG
+
+Video Types
+video/mp4: MP4
+video/x-ms-wmv: WMV
+video/x-matroska: MKV
+video/ogg: OGG
+
+های دیگر Content Type
+application/xml: برای دادههای XML
+text/csv: برای دادههای CSV
+application/javascript: برای JavaScript
+
+*****************************************************************************
+لیست اپلیکیشن سرورها و وب سرورهای جاوا 
+
+، Oracle WebLogic Server ، IBM WebSphere ، GlassFish ، WildFly ، Apache Tomcat : اپلیکیشن سرورها
+و ... . Payara Server ، Apache Geronimo
+
+و ... . Coyote ، Jetty ، Lighttpd ، Nginx ، Apache HTTP Server : وب سرورها
+
+*****************************************************************************
